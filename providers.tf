@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "devsecblueprint"
+    organization = "DSBdra"
 
     workspaces {
       name = "aws-event-driven-s3-public-detective-control"
