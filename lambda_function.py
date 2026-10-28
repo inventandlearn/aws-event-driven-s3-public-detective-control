@@ -14,6 +14,7 @@ PUBLIC_GROUPS = [
 ]
 
 def lambda_handler(event, context):
+    """Inspect an S3 configuration-change event and alert on public access findings."""
     detail = event["detail"]
 
     # ---- Extract Info ----
